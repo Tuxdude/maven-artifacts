@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.tuxdude.logback.extensions</groupId>
   <artifactId>logback-colorizer</artifactId>
   <version>1.0.0</version>
+  <packaging>jar</packaging>
   <name>Colorizer extension library for logback</name>
   <description>Colorizer extension for logback</description>
   <url>https://github.com/Tuxdude/logback-colorizer</url>
+  <inceptionYear>2014</inceptionYear>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -18,9 +19,14 @@
   <developers>
     <developer>
       <id>tuxdude</id>
-      <name>Ash &lt;Tuxdude></name>
+      <name>Ash [Tuxdude]</name>
+      <email>tuxdude.github@gmail.com</email>
     </developer>
   </developers>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/Tuxdude/logback-colorizer/issues</url>
+  </issueManagement>
   <scm>
     <connection>scm:git@github.com:Tuxdude/logback-colorizer.git</connection>
     <developerConnection>scm:git@github.com:Tuxdude/logback-colorizer.git</developerConnection>
